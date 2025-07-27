@@ -1,0 +1,50 @@
+# === GLOBAL IGNORE ===
+*.log
+*.env
+*.env.*         # e.g., .env.development
+.DS_Store
+__pycache__/
+*.py[cod]
+*.swp
+*.bak
+*.tmp
+*.sqlite3
+*.pid
+
+# === PYTHON BACKEND ===
+backend/venv/
+backend/.mypy_cache/
+backend/.pytest_cache/
+backend/.coverage
+backend/.idea/
+backend/.vscode/
+backend/.cache/
+backend/dist/
+backend/build/
+backend/*.egg-info/
+
+# === NEXT.JS FRONTEND ===
+frontend/.next/
+frontend/node_modules/
+frontend/.env.local
+frontend/.env.*.local
+frontend/.vercel/
+frontend/.turbo/
+frontend/.idea/
+frontend/.vscode/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+frontend/package-lock.json
+frontend/pnpm-lock.yaml
+frontend/yarn.lock
+
+# === Optional: OS-specific ===
+# macOS
+*.DS_Store
+# Linux
+*~
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
